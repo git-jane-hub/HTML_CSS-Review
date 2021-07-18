@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>셀렉트 만들기</h1>
+    <fieldset>
+      <legend>선택 항목들</legend>
+      <p>
+        과목선택
+        <select name="choice">
+          <option value="" selected>-- 선택 --</option>
+          <option value="study">HTML5</option>
+          <option value="study">CSS</option>
+          <option value="study">JavaScript</option>
+          <option value="study">Jquery</option>
+        </select>
+      </p>
+      <p>
+        지역선택
+        <select name="choice" id="">
+          <option value="">-- 선택 --</option>
+          <optgroup label="마포구">
+            <option value="gu">서</option>
+            <option value="gu">동</option>
+            <option value="gu">합</option>
+          </optgroup>
+          <optgroup label="동대문구">
+            <option value="gu">전</option>
+            <option value="gu">이</option>
+            <option value="gu">회</option>
+            <option value="gu">휘</option>
+          </optgroup>
+        </select>
+      </p>
+    </fieldset>
+  </body>
+</html>
